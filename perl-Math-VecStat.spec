@@ -1,8 +1,7 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Math
 %define	pnam	VecStat
-Summary:	Math::VecStat perl module
-Summary(pl):	Modu³ perla Math::VecStat
+Summary:	Math::VecStat -- some basic statistics on vectors (min,max,average,....).
 Name:		perl-Math-VecStat
 Version:	0.06
 Release:	1
@@ -15,10 +14,10 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Math::VecStat perl module.
-
-%description -l pl
-Modu³ perla Math::VecStat.
+This package provides some basic statistics on numerical vectors. All
+the subroutines can take a reference to the vector to be operated on. In
+some cases a copy of the vector is acceptable, but is not recommended
+for efficiency.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
