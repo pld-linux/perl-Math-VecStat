@@ -4,8 +4,8 @@
 Summary:	Math::VecStat perl module
 Summary(pl):	Modu³ perla Math::VecStat
 Name:		perl-Math-VecStat
-Version:	0.05
-Release:	5
+Version:	0.06
+Release:	1
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.cpan.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
