@@ -32,7 +32,7 @@ akceptowalna, ale nie jest to zalecane ze wzglêdu na wydajno¶æ.
 
 %build
 %{__perl} Makefile.PL \
-	INSTALLDIRS=vendor 
+	INSTALLDIRS=vendor
 %{__make}
 
 %install
