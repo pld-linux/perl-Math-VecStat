@@ -30,7 +30,7 @@ akceptowalna, ale nie jest to zalecane ze wzglêdu na wydajno¶æ.
 %setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
-perl Makefile.PL
+%{__perl} Makefile.PL
 %{__make}
 
 %install
