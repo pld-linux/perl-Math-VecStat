@@ -1,3 +1,7 @@
+#
+# Conditional build:
+%bcond_without	tests	# do not perform "make test"
+#
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Math
 %define	pnam	VecStat
@@ -6,7 +10,8 @@ Summary(pl):	Math::VecStat - podstawowe statystyki na wektorach (min,max,¶rednia
 Name:		perl-Math-VecStat
 Version:	0.08
 Release:	1
-License:	GPL
+# same as perl
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	3df23fb451f73bb49fd4ea344ba94020
@@ -34,6 +39,8 @@ akceptowalna, ale nie jest to zalecane ze wzglêdu na wydajno¶æ.
 %{__perl} Makefile.PL \
 	INSTALLDIRS=vendor
 %{__make}
+
+%{?with_tests:%{__make} test}
 
 %install
 rm -rf $RPM_BUILD_ROOT
