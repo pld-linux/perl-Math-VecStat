@@ -1,10 +1,11 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Math
 %define	pnam	VecStat
-Summary:	Math::VecStat -- some basic statistics on vectors (min,max,average,....).
+Summary:	Math::VecStat - some basic statistics on vectors (min,max,average,...)
+Summary(pl):	Math::VecStat - podstawowe statystyki na wektorach (min,max,¶rednia,...)
 Name:		perl-Math-VecStat
 Version:	0.06
-Release:	2
+Release:	3
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.cpan.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -15,9 +16,15 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 This package provides some basic statistics on numerical vectors. All
-the subroutines can take a reference to the vector to be operated on. In
-some cases a copy of the vector is acceptable, but is not recommended
-for efficiency.
+the subroutines can take a reference to the vector to be operated on.
+In some cases a copy of the vector is acceptable, but is not
+recommended for efficiency.
+
+%description -l pl
+Ten pakiet dostarcza kilku podstawowych statystyk na wektorach
+liczbowych. Wszystkie funkcje mog± przyj±æ referencjê do wektora, na
+którym maj± operowaæ. W niektóych przypadkach kopia wektora jest
+akceptowalna, ale nie jest to zalecane ze wzglêdu na wydajno¶æ.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
