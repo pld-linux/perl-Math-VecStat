@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Math
-%define	pnam	VecStat
+%define		pdir	Math
+%define		pnam	VecStat
 Summary:	Math::VecStat - some basic statistics on vectors (min,max,average,...)
 Summary(pl):	Math::VecStat - podstawowe statystyki na wektorach (min,max,¶rednia,...)
 Name:		perl-Math-VecStat
