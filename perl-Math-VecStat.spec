@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Math
 %define	pnam	VecStat
-Summary:	Math-VecStat perl module
-Summary(pl):	Modu³ perla Math-VecStat
+Summary:	Math::VecStat perl module
+Summary(pl):	Modu³ perla Math::VecStat
 Name:		perl-Math-VecStat
 Version:	0.05
 Release:	5
@@ -15,10 +15,10 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Math-VecStat perl module.
+Math::VecStat perl module.
 
 %description -l pl
-Modu³ perla Math-VecStat.
+Modu³ perla Math::VecStat.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
