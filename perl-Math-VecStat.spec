@@ -5,7 +5,7 @@ Summary:	Math::VecStat - some basic statistics on vectors (min,max,average,...)
 Summary(pl):	Math::VecStat - podstawowe statystyki na wektorach (min,max,¶rednia,...)
 Name:		perl-Math-VecStat
 Version:	0.06
-Release:	3
+Release:	4
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
