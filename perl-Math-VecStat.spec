@@ -45,7 +45,8 @@ akceptowalna, ale nie jest to zalecane ze wzglêdu na wydajno¶æ.
 %install
 rm -rf $RPM_BUILD_ROOT
 
-%{__make} install DESTDIR=$RPM_BUILD_ROOT
+%{__make} install \
+	DESTDIR=$RPM_BUILD_ROOT
 
 %clean
 rm -rf $RPM_BUILD_ROOT
