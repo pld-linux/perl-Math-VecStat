@@ -6,7 +6,7 @@
 %define		pdir	Math
 %define		pnam	VecStat
 Summary:	Math::VecStat - some basic statistics on vectors (min,max,average,...)
-Summary(pl):	Math::VecStat - podstawowe statystyki na wektorach (min,max,¶rednia,...)
+Summary(pl.UTF-8):   Math::VecStat - podstawowe statystyki na wektorach (min,max,Å›rednia,...)
 Name:		perl-Math-VecStat
 Version:	0.08
 Release:	1
@@ -26,11 +26,11 @@ the subroutines can take a reference to the vector to be operated on.
 In some cases a copy of the vector is acceptable, but is not
 recommended for efficiency.
 
-%description -l pl
+%description -l pl.UTF-8
 Ten pakiet dostarcza kilku podstawowych statystyk na wektorach
-liczbowych. Wszystkie funkcje mog± przyj±æ referencjê do wektora, na
-którym maj± operowaæ. W niektóych przypadkach kopia wektora jest
-akceptowalna, ale nie jest to zalecane ze wzglêdu na wydajno¶æ.
+liczbowych. Wszystkie funkcje mogÄ… przyjÄ…Ä‡ referencjÄ™ do wektora, na
+ktÃ³rym majÄ… operowaÄ‡. W niektÃ³ych przypadkach kopia wektora jest
+akceptowalna, ale nie jest to zalecane ze wzglÄ™du na wydajnoÅ›Ä‡.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
