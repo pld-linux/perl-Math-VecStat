@@ -4,7 +4,6 @@
 
 %define		pdir	Math
 %define		pnam	VecStat
-%include	/usr/lib/rpm/macros.perl
 Summary:	Math::VecStat - some basic statistics on vectors (min,max,average,...)
 Summary(pl.UTF-8):	Math::VecStat - podstawowe statystyki na wektorach (min,max,średnia,...)
 Name:		perl-Math-VecStat
